@@ -5,6 +5,9 @@ function showFamily() {
       sister: "Ali"
     };
   
-    document.getElementById("Dictionary").innerHTML = family.mother;
-  }
-  
+
+
+  // Delete the father key 
+  delete family.father;
+  document.getElementById("Dictionary").innerHTML = family.father;
+}
