@@ -1,6 +1,14 @@
-function Ride_Function() {
-    var Height, can_ride;
-    Height = document.getElementById("Height").value;
-    can_ride = (Height < 52) ? "You are too short":"You are tall enaugh ";
-    document.getElementById("Ride").innerHTML = can_ride + "to ride."
+function my_Function() {
+    var Age, can_vote;
+    Age = document.getElementById("Age").value;
+    can_vote = (Age < 18) ? "You are not old enaugh" : "You are old enaugh ";
+    document.getElementById("vote").innerHTML = can_vote + " to vote";
+}
+
+// Nasted function
+function outerFunction() {
+    function innerFunction() {
+        return "this is the nasted function";
+    }
+    document.getElementById("Nasted_Function").innerHTML = innerFunction();
 }
