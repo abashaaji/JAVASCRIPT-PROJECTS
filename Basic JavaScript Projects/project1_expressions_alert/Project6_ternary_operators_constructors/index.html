@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="JS/main.js"></script>
+    <title>Vote Check & Nested Function</title>
+    <script src="JS/main.js" defer></script>
 </head>
 <body>
-    <p>Riders must be at least 52 centmiters tall to ride.</p>
-    <input id="Height" value="52" />
-    <button onclick="Ride_Function()">click here</button>
-    <p id="Ride"></p>
+
+    <p>Enter your age and click to check if you can vote:</p>
+    <input id="Age" type="number" />
+    <button onclick="my_Function()">Click here to vote</button>
+    <p id="vote"></p>
+
+    <p id="Nasted_Function" onclick="outerFunction()">Click here to run nested function</p>
+
 </body>
 </html>
