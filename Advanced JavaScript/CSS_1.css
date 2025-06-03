@@ -1,0 +1,19 @@
+#name {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#email {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+input {
+    color: rgb(172, 87, 87);
+    font-size: large;
+}
+.wrap {
+    background-color: rgb(218, 177, 177);
+}
